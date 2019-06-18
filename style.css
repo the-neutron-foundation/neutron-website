@@ -7,7 +7,6 @@ html, body{
 }
 
 body{
-    background-color:#ffffff;
     background-image:url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Frajatbhageria%2Ffiles%2F2017%2F09%2Fcode-copy-1200x1200.jpg);
     background-position:center;
     background-size:cover;
@@ -27,6 +26,7 @@ body{
     color:white;
     font-size:60pt;
     font-family:big john;
+    src: url("https://the-neutron-foundation.github.io/big_john.otf") format("opentype");
 }
 .title2{
     display:block;
