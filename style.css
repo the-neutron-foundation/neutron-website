@@ -35,7 +35,8 @@ body{
     text-align: center;
     color:white;
     font-size:14pt;
-    font-family:serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 .register{
