@@ -7,8 +7,8 @@ html, body{
 }
 
 body{
-    background-color:#212677;
-    background-image:url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Frajatbhageria%2Ffiles%2F2017%2F09%2Fcode-copy-1200x1200.jpg);
+    background-color:#1c296d;
+    background-image:url(./code.png);
     background-position:center;
     background-size:cover;
     background-blend-mode:soft-light;
@@ -50,13 +50,13 @@ body{
     font-family:sans-serif;
     font-weight: bold;
     border-radius: 5px;
-    
+
     transition: background-color 1000ms, color 1000ms;
 }
 .register:hover{
     background-color:rgba(255,255,255,1);
     color:#222;
     cursor:pointer;
-    
+
     transition: background-color 1000ms, color 1000ms;
 }
