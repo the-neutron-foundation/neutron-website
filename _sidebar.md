@@ -4,6 +4,7 @@
   * [Theory](/docs/Theory.md)
   * [Addons](/docs/Addons.md)
   * [Getting Started](/docs/Usage.md)
+  * [FAQ](/docs/Faq.md)
 * Syntax
   * [Comments](/docs/core_syntax/comments.md)
   * [Primitive Types](/docs/core_syntax/primitive_types.md)

@@ -11,3 +11,6 @@ code into an executable.
 **Why Should I use Neutron?** The main reason is because it has more
 features (even more coming soon) than python 3, including Numpy Arrays
 built-in, and because it is extremely configurable.
+
+**Where did the ReadTheDocs page go?** The RTD page was replaced by this website
+and now is gone from RTD. Everything was ported here.
