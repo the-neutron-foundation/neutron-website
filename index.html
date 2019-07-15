@@ -11,6 +11,9 @@
 <body>
   <div id="app">Awsomeness Loading...</div>
   <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
     window.$docsify = {
       name: 'Neutron',
       repo: 'https://github.com/the-neutron-foundation/neutron-language',
