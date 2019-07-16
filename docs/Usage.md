@@ -30,7 +30,7 @@ use pypy for its speed**.
 
 If you plan to just run the normal source code (recommended), just pass
 neutron as the package and the normal arguments after. Make sure you are
-in the main directory, and not in the [neutron-repo/neutron]{.title-ref}
+in the main directory, and not in the `neutron-repo/neutron`
 path. Example:
 <!-- tabs:start -->
 #### ** Windows **
