@@ -7,7 +7,7 @@ The `file` package deals with the reading and writing of files.
 -----------
 
 `file(filename)` is a file object with the methods: `read`, `write` and
-`append`. The [filename]{.title-ref} (string) should (for now) be the
+`append`. The filename (string) should (for now) be the
 absolute path of the file you wish to read/write to.
 
 `file/file::read()`
