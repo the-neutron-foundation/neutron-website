@@ -1,4 +1,4 @@
-Inline Python
+Embedded Python Code
 =============
 ---
 
@@ -6,13 +6,13 @@ Putting Python Code
 -------------------
 
 It is possible to make functions that have python functionality by
-putting inline python code. This is how the `io` packages were written.
+putting embedded python code. This is how the `io` packages were written.
 
-To put inline python code into your Neutron code, use the backtick ``\`.
+To put embedded python code into your Neutron code, use the backtick ``\`.
 You can use python code anywhere as an expression, or just pure python
 code.
 
-Example of pure inline python code:
+Example of pure embedded python code:
 
 ```neutron
 `print("Hello, Neutron!")
