@@ -8,5 +8,5 @@ For now, only an interpreter has been implemented. There are plans to implement 
 
 ```neutron
 import "io";
-io::print("Hello, World!")
+io::print("Hello, World!");
 ```
