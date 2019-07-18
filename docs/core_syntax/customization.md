@@ -8,7 +8,7 @@ Putting Python Code
 It is possible to make functions that have python functionality by
 putting embedded python code. This is how the `io` packages were written.
 
-To put embedded python code into your Neutron code, use the backtick ``\`.
+To put embedded python code into your Neutron code, use the backtick ```.
 You can use python code anywhere as an expression, or just pure python
 code.
 
@@ -23,8 +23,8 @@ a_python_function_here();
 Example of python code being used as an expression:
 
 ```neutron
-a_neutron_function(`bt.IntType(python_function(10), enter_value=True)`, `bt.IntType(20, enter_value=True)`, 30); // Use python code as positional arguments
-x = `bt.IntType(len("Hello World!"), enter_value=True)`; // len is 12
+a_neutron_function(`python_function(10)`, `20`, 30); // Use python code as positional arguments
+x = `len("Hello World!")`; // len is 12
 ```
 
 In order to get variables, or make them, you must do it in a special
@@ -73,24 +73,33 @@ var.foo = bt.NumpyArray(np.array(1, 2, 3, 4), enter_value=True)`;
 
 Note that in this case, `bt` is short for builtin types.
 
+**NOTE: you no not need to do this with expressions. Instead, with expressions,
+you just need to write the normal python `int`, and neutron will make a
+`bt.IntType` type.** For example:
+
+```
+x = `10+10`; // maps to bt.IntType(10+10, enter_value=True)
+y = `None`; // maps to bt.NullType()
+```
+
 `Builtin Types` List
 --------------------
 
 The builtin type available are:
 
-`bt.IntType` - for integers
+`bt.IntType` - for integers (maps to `int` in python)
 
-`bt.FloatType` - for floats
+`bt.FloatType` - for floats (maps to `float` in python)
 
-`bt.StringType` - for strings
+`bt.StringType` - for strings (maps to `str` in python)
 
-`bt.BoolType` - for booleans
+`bt.BoolType` - for booleans (maps to `bool` in python)
 
-`bt.NumpyArray` - for Numpy arrays
+`bt.NumpyArray` - for Numpy arrays (maps to `ndarray` in python)
 
-`bt.ListType` - for python-like lists
+`bt.ListType` - for python-like lists (maps to `list` in python)
 
-`bt.TupleType` - for python-like tuples
+`bt.TupleType` - for python-like tuples (maps to `tuple` in python)
 
 `bt.NullType` - for a null type similar to the python None type (no
-arguments)
+arguments) (maps to `None` in python)

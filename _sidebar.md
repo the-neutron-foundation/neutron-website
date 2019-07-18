@@ -18,7 +18,7 @@
   * [Deleting Objects](/docs/core_syntax/delete.md)
   * [Built-In Functions](/docs/core_syntax/builtin_functions.md)
   * [Importing](/docs/core_syntax/imports.md)
-  * [Inline Python](/docs/core_syntax/customization.md)
+  * [Embedded Python](/docs/core_syntax/customization.md)
 * Packages
   * [Io](/docs/packages/io.md)
   * [Types](/docs/packages/types.md)
