@@ -83,3 +83,25 @@ x = {1, 2, 3}
 y = {4, 5}
 x = x + y; // give x the value of {1, 2, 3, 4, 5}
 ```
+
+`AssocArray`
+------------
+An `AssocArray` is an associative array, similar to a dictionary in python.
+In anassociative array, you can have keys, which map to a different value.
+The literal used is a backslash (`\`). One type can map to different type.
+For example:
+
+```neutron
+x = \true: "is true", 1: "one"\;
+y = x[true]; // y is now "is true"
+```
+
+Like seen above, keys can be used in the same way items can be indexed in an
+array.
+
+Associative arrays are also mutable, so you can assign values as well:
+
+```neutron
+x = \true: "is true", 1: 2-1\;
+x["test"] = 203+203;
+```
