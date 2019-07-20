@@ -19,6 +19,7 @@
   * [Built-In Functions](/docs/core_syntax/builtin_functions.md)
   * [Importing](/docs/core_syntax/imports.md)
   * [Embedded Python](/docs/core_syntax/embedded_python.md)
+  * [Sandboxes](/docs/core_syntax/sandboxes.md)
 * Packages
   * [Io](/docs/packages/io.md)
   * [Types](/docs/packages/types.md)
