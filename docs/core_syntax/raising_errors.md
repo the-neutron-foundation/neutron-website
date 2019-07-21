@@ -18,5 +18,5 @@ You can also raise errors using embedded python code. Example:
   file="path_to_file_where_error_occured")`;
 ```
 
-For now, it is recommended to use the python variant of raising error because
-it is more stable.
+It is recommended to use the Neutron variant of raising error because
+it is more supported.
