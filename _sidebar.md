@@ -19,6 +19,7 @@
   * [Built-In Functions](/docs/core_syntax/builtin_functions.md)
   * [Importing](/docs/core_syntax/imports.md)
   * [Locally Importing](/docs/core_syntax/local_import.md)
+  * [Raising Errors](/docs/core_syntax/raising_errors.md)
   * [Embedded Python](/docs/core_syntax/embedded_python.md)
   * [Sandboxes](/docs/core_syntax/sandboxes.md)
 * Packages

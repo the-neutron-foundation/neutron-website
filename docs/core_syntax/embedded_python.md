@@ -47,6 +47,17 @@ var.local_variable # get value of variable
 gvar.global_variable`;
 ```
 
+To get an attribute from a class in a method, get the variable `this` and get the `.objects` attribute from it:
+
+```
+class test {
+  def --init--(this, arg) {
+    this::arg = arg;
+    `print(var.this.objects["arg"])`
+  }
+}
+```
+
 To get the python equivalent value, use the `.value` attribute. For
 example:
 
