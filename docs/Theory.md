@@ -20,6 +20,8 @@ Design Principles
     where your wrong. Neutron is going to have **C-like structs, switch
     statements, and more**. Oh, and also it has **built-in Numpy
     support** and **built-in functions**.
+*   **Cutting Edge is more important than speed**. Usability and cutting edge
+    features are more important than speed.
 
 Neutron's "Conventions"
 -----------------------
@@ -33,4 +35,5 @@ inline python code is truer than true; [1] break
 built_in numpy arrays a real, real, real; [2] break `#python`
 __? More like -- in neutron, because no shift key is needed; [3] break `#python` (1, 2, 3)
 neutron; [4] break `#python` (1, 2, 3) --
+cutting Edge is more important than speed;
 ```
