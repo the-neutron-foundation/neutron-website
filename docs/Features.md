@@ -10,8 +10,8 @@ The Features
 Exciting features:
 - [x] Numpy Arrays Built-In
 - [x] Break Statements in Functions
-- [ ] Local Imports (`limports`)
-- [ ] Sandboxing
+- [x] Local Imports (`limports`)
+- [x] Sandboxing
 - [ ] Changeable syntax at runtime
 
 General Features:
